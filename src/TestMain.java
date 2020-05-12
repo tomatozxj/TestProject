@@ -14,6 +14,7 @@ public class TestMain {
         if (String.valueOf(DateCrossUtil.compare_date(activityStartDateString, currentTimeString)).equals("0")
                 || String.valueOf(DateCrossUtil.compare_date(activityStartDateString, currentTimeString)).equals("-1")){
             System.out.println();
+            //测试本地创建分支提交
         }
     }
 }
